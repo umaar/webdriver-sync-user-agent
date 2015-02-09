@@ -1,0 +1,19 @@
+{
+  "name": "webdriver-sync-user-agent",
+  "version": "0.0.0",
+  "description": "",
+  "main": "run.js",
+  "dependencies": {
+    "selenium-binaries": "~0.2.0",
+    "webdriver-sync": "~0.15.2",
+    "should": "~4.6.5"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -r should 'test.js' --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC"
+}
