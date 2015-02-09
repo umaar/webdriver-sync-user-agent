@@ -1,3 +1,8 @@
+/*
+* Init creates a new browser object, the argument
+* you can pass is the user agent.
+*/
+
 function init(opts) {
 	var wd = require('webdriver-sync');
 	var seleniumBinaries = require('selenium-binaries');

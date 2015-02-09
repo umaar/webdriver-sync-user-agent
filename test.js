@@ -5,8 +5,8 @@ describe('Browser Settings', function(){
 	var driver = require('./driver').init({
 		userAgent: userAgent
 	});
-	var assert = require('assert');
 
+	var assert = require('assert');
 
 	describe('User agent', function(){
 		it('should set the user agent', function(){
